@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #f8f8f8;
+  background: #1B1A20 !important;
+
+}
+
+body input,
+body textarea {
+  color: black;
+}
+
+a {
+  color: #2d7bd4;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+p {
+  margin: 8px 0;
+}
+
+code {
+  color: #ffa500;
+}
+
+li {
+  padding: 4px;
+}
+
+.logo-header {
+  width: 250px;
+}
+
+
+// REMOVER QUANDO O SITE RETORNAR DA MANUTENCAO
+
+// .aposta-gpt div {
+//   opacity: 0.8;
+//   pointer-events: none;
+// }
+
+// .aposta-gpt::before {
+//   content: "Estamos em manutenção... retornaremos em breve!";
+//   font-size: 40px;
+//   position: absolute;
+//   width: 100%;
+//   text-align: center;
+//   z-index: 999;
+//   color: #5c5b6a;
+//   margin-top: -150px;
+
+// }
+
+// svg#logo_name_svg__Layer_1 {
+//   height: 300px;
+//   min-height: 300px;
+//   max-height: 300px;
+// }
+
+// REMOVER QUANDO O SITE RETORNAR DA MANUTENCAO
