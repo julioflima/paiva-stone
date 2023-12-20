@@ -54,9 +54,9 @@ const RootLayout = () => (
         rel="apple-touch-icon"
       />
     </Head>
-    <Script src="jquery.js"></Script>
-    <Script src="ovo.js"></Script>
-    <Script src="webfont.js"></Script>
+    <Script src="/js/jquery.js"></Script>
+    <Script src="/js/ovo.js"></Script>
+    <Script src="/js/webfont.js"></Script>
 
     <style
       type="text/css"
