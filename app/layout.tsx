@@ -10,7 +10,7 @@ const RootLayout = () => (
     <Head>
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-      <link rel="icon" type="image/png" href="/favicon.png"></link>
+      <link rel="icon" type="image/png" href="/images/favicon.jpg"></link>
       {/* saved from url=(0029)https://ovo-pulse.webflow.io/ */}
       <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
       <style
