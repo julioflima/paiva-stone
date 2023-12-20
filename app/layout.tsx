@@ -12,63 +12,52 @@ const RootLayout = () => (
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <link rel="icon" type="image/png" href="/favicon.png"></link>
-      <title>Title Here</title>
+      {/* saved from url=(0029)https://ovo-pulse.webflow.io/ */}
+      <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+      <style
+        dangerouslySetInnerHTML={{
+          __html: '.wf-force-outline-none[tabindex="-1"]:focus{outline:none;}'
+        }}
+      />
+      <title>Paiva&apos;S Granite & Marble - Rapair & Installation</title>
+      <meta content="Paiva'S Granite & Marble - Rapair & Installation" name="description" />
+      <meta content="Paiva'S Granite & Marble - Rapair & Installation" property="og:title" />
+      <meta
+        content="Step into the world of Paiva's Granite & Marble, where we specialize in the meticulous repair and expert installation of marble and granite. Our website showcases our unmatched skills in bringing damaged marble and granite back to life, and our proficiency in seamlessly integrating these elegant materials into modern living spaces."
+        property="og:description"
+      />
+      <meta
+        content="Paiva'S Granite & Marble - Rapair & Installation"
+        property="twitter:title"
+      />
+      <meta
+        content="Step into the world of Paiva's Granite & Marble, where we specialize in the meticulous repair and expert installation of marble and granite. Our website showcases our unmatched skills in bringing damaged marble and granite back to life, and our proficiency in seamlessly integrating these elegant materials into modern living spaces."
+        property="twitter:description"
+      />
+      <meta property="og:type" content="website" />
+      <meta content="summary_large_image" name="twitter:card" />
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+      <link href="https://fonts.googleapis.com/" rel="preconnect" />
+      <link
+        href="https://fonts.gstatic.com/"
+        rel="preconnect"
+        crossOrigin="anonymous"
+      />
+      <link
+        href="https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b721de3d1248bf642f4f2_Flow%201%401x-50fps.gif"
+        rel="shortcut icon"
+        type="image/x-icon"
+      />
+      <link
+        href="https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b72664740e8d4810a8758_Webclip.jpg"
+        rel="apple-touch-icon"
+      />
     </Head>
     <Script src="jquery.js"></Script>
     <Script src="ovo.js"></Script>
     <Script src="webfont.js"></Script>
-    {/* saved from url=(0029)https://ovo-pulse.webflow.io/ */}
-    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
-    <style
-      dangerouslySetInnerHTML={{
-        __html: '.wf-force-outline-none[tabindex="-1"]:focus{outline:none;}'
-      }}
-    />
-    <title>Paiva'S Granite & Marble - Rapair & Installation</title>
-    <meta content="Paiva'S Granite & Marble - Rapair & Installation" name="description" />
-    <meta content="Paiva'S Granite & Marble - Rapair & Installation" property="og:title" />
-    <meta
-      content="Paiva'S Granite & Marble - Rapair & Installation"
-      property="og:description"
-    />
-    <meta
-      content="Paiva'S Granite & Marble - Rapair & Installation"
-      property="twitter:title"
-    />
-    <meta
-      content="Paiva'S Granite & Marble - Rapair & Installation"
-      property="twitter:description"
-    />
-    <meta property="og:type" content="website" />
-    <meta content="summary_large_image" name="twitter:card" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="Webflow" name="generator" />
-    <link
-      href="./Paiva'S Granite & Marble - Rapair & Installation_files/ovo-pulse.webflow.fab2adffc.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link href="https://fonts.googleapis.com/" rel="preconnect" />
-    <link
-      href="https://fonts.gstatic.com/"
-      rel="preconnect"
-      crossOrigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="./Paiva'S Granite & Marble - Rapair & Installation_files/css"
-      media="all"
-    />
-    <link
-      href="https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b721de3d1248bf642f4f2_Flow%201%401x-50fps.gif"
-      rel="shortcut icon"
-      type="image/x-icon"
-    />
-    <link
-      href="https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b72664740e8d4810a8758_Webclip.jpg"
-      rel="apple-touch-icon"
-    />
-    <meta id="dcngeagmmhegagicpcmpinaoklddcgon" />
+
     <style
       type="text/css"
       dangerouslySetInnerHTML={{
@@ -1244,15 +1233,6 @@ const RootLayout = () => (
                     Change Log
                   </a>
                 </div>
-              </div>
-              <div className="footer-links-holder">
-                <a
-                  href="https://webflow.com/"
-                  target="_blank"
-                  className="simple-link grey-link"
-                >
-                  Powered by WEBFLOW
-                </a>
               </div>
             </div>
           </div>
