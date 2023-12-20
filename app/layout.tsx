@@ -1,10 +1,9 @@
-'use client'
+'use client';
 
-import Head from "next/head";
-import Script from "next/script";
-import "./globals.scss";
-import "./styles.scss";
-
+import Head from 'next/head';
+import Script from 'next/script';
+import './globals.scss';
+import './styles.scss';
 
 const RootLayout = () => (
   <html>
@@ -20,8 +19,14 @@ const RootLayout = () => (
         }}
       />
       <title>Paiva&apos;S Granite & Marble - Rapair & Installation</title>
-      <meta content="Paiva'S Granite & Marble - Rapair & Installation" name="description" />
-      <meta content="Paiva'S Granite & Marble - Rapair & Installation" property="og:title" />
+      <meta
+        content="Paiva'S Granite & Marble - Rapair & Installation"
+        name="description"
+      />
+      <meta
+        content="Paiva'S Granite & Marble - Rapair & Installation"
+        property="og:title"
+      />
       <meta
         content="Step into the world of Paiva's Granite & Marble, where we specialize in the meticulous repair and expert installation of marble and granite. Our website showcases our unmatched skills in bringing damaged marble and granite back to life, and our proficiency in seamlessly integrating these elegant materials into modern living spaces."
         property="og:description"
@@ -45,7 +50,7 @@ const RootLayout = () => (
         crossOrigin="anonymous"
       />
       <link
-        href="https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b721de3d1248bf642f4f2_Flow%201%401x-50fps.gif"
+        href="https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b721de3d1248bf642f4f2_Flow%201%401x-50fps.jpeg"
         rel="shortcut icon"
         type="image/x-icon"
       />
@@ -83,17 +88,17 @@ const RootLayout = () => (
               aria-current="page"
               className="logo-holder w-inline-block w--current"
             >
-              <div className="logo-text">Pulse</div>
+              <div className="logo-text">Paiva&apos;s Granite & Marble</div>
             </a>
             <nav
               role="navigation"
               className="nav-menu-wrapper w-nav-menu"
               style={{
-                height: "0%",
+                height: '0%',
                 transform:
-                  "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                transformStyle: "preserve-3d",
-                display: "none"
+                  'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                transformStyle: 'preserve-3d',
+                display: 'none'
               }}
             >
               <div className="nav-wrapper">
@@ -103,8 +108,8 @@ const RootLayout = () => (
                       className="nav-links _02"
                       style={{
                         transform:
-                          "translate3d(0px, 60px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                        transformStyle: "preserve-3d"
+                          'translate3d(0px, 60px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                        transformStyle: 'preserve-3d'
                       }}
                     >
                       <a
@@ -118,8 +123,8 @@ const RootLayout = () => (
                       className="nav-links _03"
                       style={{
                         transform:
-                          "translate3d(0px, 60px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                        transformStyle: "preserve-3d"
+                          'translate3d(0px, 60px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                        transformStyle: 'preserve-3d'
                       }}
                     >
                       <a
@@ -133,15 +138,12 @@ const RootLayout = () => (
                       className="nav-links _05"
                       style={{
                         transform:
-                          "translate3d(0px, 60px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                        transformStyle: "preserve-3d"
+                          'translate3d(0px, 60px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                        transformStyle: 'preserve-3d'
                       }}
                     >
-                      <a
-                        href="mailto:email@email.com"
-                        className="nav-link-big w-nav-link"
-                      >
-                        Contact
+                      <a href="/#contract" className="nav-link-big w-nav-link">
+                        Contract
                       </a>
                     </div>
                   </div>
@@ -149,8 +151,8 @@ const RootLayout = () => (
                     className="social-media-holder"
                     style={{
                       transform:
-                        "translate3d(0px, 469px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                      transformStyle: "preserve-3d"
+                        'translate3d(0px, 469px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                      transformStyle: 'preserve-3d'
                     }}
                   >
                     <a
@@ -181,16 +183,16 @@ const RootLayout = () => (
                   style={{
                     opacity: 0,
                     transform:
-                      "translate3d(0px, 150px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                    transformStyle: "preserve-3d"
+                      'translate3d(0px, 150px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                    transformStyle: 'preserve-3d'
                   }}
                 >
                   <p className="navbar-paragraph">
-                    Collaboration is at the heart of my work. I thrive in dynamic
-                    environments where ideas flow freely and diverse perspectives
-                    converge. Collaboration is at the heart of my work. I thrive
-                    in dynamic environments where ideas flow freely and diverse
-                    perspectives converge.
+                    Collaboration is at the heart of my work. I thrive in
+                    dynamic environments where ideas flow freely and diverse
+                    perspectives converge. Collaboration is at the heart of my
+                    work. I thrive in dynamic environments where ideas flow
+                    freely and diverse perspectives converge.
                   </p>
                   <div className="size-holder">
                     <div className="block" />
@@ -202,7 +204,7 @@ const RootLayout = () => (
             </nav>
             <div
               className="menu-button w-nav-button"
-              style={{ WebkitUserSelect: "text" }}
+              style={{ WebkitUserSelect: 'text' }}
               aria-label="menu"
               role="button"
               tabIndex={0}
@@ -210,7 +212,9 @@ const RootLayout = () => (
               aria-haspopup="menu"
               aria-expanded="false"
             >
-              <div className="menu-text">#Menu</div>
+              <a className="menu-text" href="/#contract">
+                #Contact
+              </a>
             </div>
           </div>
         </div>
@@ -220,33 +224,33 @@ const RootLayout = () => (
     <div data-w-id="83fcc54d-d894-1662-8ea6-14fafc62ee43" className="section">
       <div className="hero-section">
         <div className="container">
-          <div className="hero-text-holder">
+          <div className="hero-text-holder" id="repair">
             <div className="perspective">
               <div
                 style={{
                   transform:
-                    "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                  transformStyle: "preserve-3d",
+                    'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transformStyle: 'preserve-3d',
                   opacity: 1,
-                  color: "rgb(255, 255, 255)"
+                  color: 'rgb(255, 255, 255)'
                 }}
                 className="animate-text-01"
               >
-                <div className="hero-text">Art</div>
+                <div className="hero-text">Repair &</div>
               </div>
             </div>
             <div className="perspective">
               <div
                 style={{
                   transform:
-                    "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                  transformStyle: "preserve-3d",
-                  color: "rgb(255, 255, 255)",
+                    'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transformStyle: 'preserve-3d',
+                  color: 'rgb(255, 255, 255)',
                   opacity: 1
                 }}
                 className="animate-text-02"
               >
-                <div className="hero-text">Direction</div>
+                <div className="hero-text">Installation</div>
               </div>
             </div>
             <div className="hero-text-wrapper">
@@ -255,14 +259,14 @@ const RootLayout = () => (
                   <div
                     style={{
                       transform:
-                        "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                      transformStyle: "preserve-3d",
+                        'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                      transformStyle: 'preserve-3d',
                       opacity: 1,
-                      color: "rgb(255, 255, 255)"
+                      color: 'rgb(255, 255, 255)'
                     }}
                     className="animate-text-03"
                   >
-                    <div className="hero-text">Photos</div>
+                    <div className="hero-text !hidden">+more</div>
                   </div>
                 </div>
                 <div className="hero-about-text-container">
@@ -270,7 +274,7 @@ const RootLayout = () => (
                     <div className="block" />
                     <div
                       className="block-line"
-                      style={{ willChange: "width, height", height: "99.991%" }}
+                      style={{ willChange: 'width, height', height: '99.991%' }}
                     />
                     <div className="block" />
                   </div>
@@ -279,40 +283,42 @@ const RootLayout = () => (
                       className="fade-in-on-scroll"
                       style={{
                         transform:
-                          "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                        transformStyle: "preserve-3d",
+                          'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                        transformStyle: 'preserve-3d',
                         opacity: 1
                       }}
                     >
                       <div className="hero-about-wrapper">
                         <p>
-                          Hello there! I&apos;m Yoru, a 23-year-old photographer deeply
-                          passionate about capturing the essence of moments
-                          through my lens. Photography isn&apos;t just a profession for
-                          me; it&apos;s a way of life, an art form that allows me to
-                          express emotions and stories in the most captivating way
-                          possible.
+                          Hello there! I&apos;m Felipe Paiva, a skilled
+                          Brazilian Stone Worker deeply devoted to enlighten
+                          your project with beautiful Granite & Marble. He
+                          carefully create, repair or restores a piece of
+                          granite and marble, marked by graceful gray veins, to
+                          its original splendor. His precision with the chisel
+                          and hammer symbolizes our dedication to restoring the
+                          beauty and integrity of your marble surfaces.
                         </p>
                         <div className="lines-holder">
                           <div
                             className="lines"
                             style={{
-                              willChange: "width, height",
-                              width: "99.991%"
+                              willChange: 'width, height',
+                              width: '99.991%'
                             }}
                           />
                           <div
                             className="lines _02"
                             style={{
-                              willChange: "width, height",
-                              width: "99.991%"
+                              willChange: 'width, height',
+                              width: '99.991%'
                             }}
                           />
                           <div
                             className="lines _03"
                             style={{
-                              willChange: "width, height",
-                              width: "99.991%"
+                              willChange: 'width, height',
+                              width: '99.991%'
                             }}
                           />
                         </div>
@@ -320,42 +326,42 @@ const RootLayout = () => (
                     </div>
                     <div className="location-holder">
                       <div className="location">
-                        Prishtine/
+                        Atlanta/
                         <br />
-                        Kosovo
+                        Georgia
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="hero-image-holder">
-                <div className="hero-image-container">
+                <div className="hero-image-container photo-container">
                   <img
-                    src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b9ad6a5c933e419ce8caa_Hero Image.jpg"
+                    src="./images/vegas.jpeg"
                     loading="eager"
                     style={{
                       opacity: 1,
                       transform:
-                        "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                      transformStyle: "preserve-3d"
+                        'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                      transformStyle: 'preserve-3d'
                     }}
                     sizes="(max-width: 479px) 88vw, (max-width: 767px) 210px, (max-width: 991px) 460px, (max-width: 1439px) 550px, 710px"
                     alt=""
-                    srcSet="https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b9ad6a5c933e419ce8caa_Hero%20Image-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b9ad6a5c933e419ce8caa_Hero%20Image-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b9ad6a5c933e419ce8caa_Hero%20Image-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b9ad6a5c933e419ce8caa_Hero%20Image.jpg 1426w"
-                    className="hero-image _01"
+                    srcSet="./images/vegas.jpeg"
+                    className="hero-image _01 image-black"
                   />
                   <img
-                    src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b9ad792117b5f50fa039b_Hero Image BG.jpg"
+                    src="./images/holy.jpeg"
                     loading="eager"
                     style={{
                       opacity: 1,
                       transform:
-                        "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                      transformStyle: "preserve-3d"
+                        'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                      transformStyle: 'preserve-3d'
                     }}
                     sizes="(max-width: 479px) 88vw, (max-width: 767px) 210px, (max-width: 991px) 460px, (max-width: 1439px) 550px, 710px"
                     alt=""
-                    srcSet="https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b9ad792117b5f50fa039b_Hero%20Image%20BG-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b9ad792117b5f50fa039b_Hero%20Image%20BG-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b9ad792117b5f50fa039b_Hero%20Image%20BG-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b9ad792117b5f50fa039b_Hero%20Image%20BG.jpg 1300w"
+                    srcSet="./images/holy.jpeg"
                     className="hero-image bg"
                   />
                 </div>
@@ -371,42 +377,42 @@ const RootLayout = () => (
         style={{
           opacity: 1,
           transform:
-            "translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-          transformStyle: "preserve-3d"
+            'translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+          transformStyle: 'preserve-3d'
         }}
       >
         <div
           className="infinite-text-container"
           style={{
             transform:
-              "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-            transformStyle: "preserve-3d",
-            willChange: "transform"
+              'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+            transformStyle: 'preserve-3d',
+            willChange: 'transform'
           }}
         >
-          <div className="infnite-text">#aBOUT mE</div>
+          <div className="infnite-text">#granite</div>
         </div>
         <div
           className="infinite-text-container"
           style={{
             transform:
-              "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-            transformStyle: "preserve-3d",
-            willChange: "transform"
+              'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+            transformStyle: 'preserve-3d',
+            willChange: 'transform'
           }}
         >
-          <div className="infnite-text">#aBOUT mE</div>
+          <div className="infnite-text">#marble</div>
         </div>
         <div
           className="infinite-text-container"
           style={{
             transform:
-              "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-            transformStyle: "preserve-3d",
-            willChange: "transform"
+              'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+            transformStyle: 'preserve-3d',
+            willChange: 'transform'
           }}
         >
-          <div className="infnite-text">#aBOUT mE</div>
+          <div className="infnite-text">#granite</div>
         </div>
       </div>
     </div>
@@ -420,62 +426,76 @@ const RootLayout = () => (
           <div
             className="about-text-wrapper"
             style={{
-              willChange: "transform",
+              willChange: 'transform',
               transform:
-                "translate3d(0px, 158.65px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-              transformStyle: "preserve-3d"
+                'translate3d(0px, 158.65px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+              transformStyle: 'preserve-3d'
             }}
           >
             <div className="lines-holder">
               <div
                 className="lines _02"
-                style={{ willChange: "width, height", width: "55.2786%" }}
+                style={{ willChange: 'width, height', width: '55.2786%' }}
               />
               <div
                 className="lines _03"
-                style={{ willChange: "width, height", width: "76.6929%" }}
+                style={{ willChange: 'width, height', width: '76.6929%' }}
               />
             </div>
             <p>
-              My confidence in my work stems from the belief that every click has
-              the power to convey a thousand words. Through my lens, I aim to
-              transport viewers into the very soul of the images I create. Join me
-              as I navigate the world, one evocative frame at a time, and let&apos;s
-              explore the beauty of life together.
+              At the <b>heart</b> of our workshop is a gallery of possibilities,
+              displaying an array of marble and granite slabs. Each piece, from
+              classic whites and blacks to vibrant reds and blues, is a
+              potential centerpiece for your space, waiting to be skillfully
+              repaired or installed by our team.
             </p>
-            <div className="contact-text">
-              <a href="mailto:Email@email.com" className="contact-me-text">
-                #contact me
+            <p>
+              Our <b>tools</b>, ranging from precision saws to delicate
+              polishers, are meticulously maintained to ensure the highest
+              quality in every aspect of our <b>repair</b> and{' '}
+              <b>installation</b> services.
+            </p>
+            <p>
+              Explore <b>Paiva&apos;s Granite & Marble</b>, where every repair
+              and installation project is an opportunity to showcase our
+              excellence in craftsmanship. Discover how we can rejuvenate your
+              marble and granite surfaces or flawlessly integrate them into your{' '}
+              <b>décor</b>.
+            </p>
+
+            <div className="contract-text">
+              <a href="mailto:Email@email.com" className="contract-me-text">
+                #contract me
               </a>
             </div>
           </div>
           <div className="about-me-image-holder">
             <img
-              src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b9ad6cefdda024a1f4931_About Image (1).jpg"
+              src="/images/about-one.jpeg"
               loading="eager"
               sizes="(max-width: 479px) 97vw, (max-width: 767px) 98vw, (max-width: 991px) 99vw, (max-width: 1439px) 54vw, 81vw"
-              srcSet="https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b9ad6cefdda024a1f4931_About%20Image%20(1)-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b9ad6cefdda024a1f4931_About%20Image%20(1)-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b9ad6cefdda024a1f4931_About%20Image%20(1).jpg 1000w"
+              srcSet="/images/about-one.jpeg"
               alt=""
-              className="about-me-image"
+              className="about-me-image image-black"
               style={{
-                willChange: "transform",
+                willChange: 'transform',
                 transform:
-                  "translate3d(0px, 114.473px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                transformStyle: "preserve-3d"
+                  'translate3d(0px, 114.473px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                transformStyle: 'preserve-3d'
               }}
             />
             <img
-              src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b9ad63f1e60070de476a5_About Image (2).jpg"
+              src="/images/about-two.jpeg"
               loading="lazy"
               sizes="(max-width: 479px) 190px, 440px"
-              srcSet="https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b9ad63f1e60070de476a5_About%20Image%20(2)-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b9ad63f1e60070de476a5_About%20Image%20(2)-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eec8a/654b9ad63f1e60070de476a5_About%20Image%20(2).jpg 1000w"
+              srcSet="/images/about-two.jpeg"
               alt=""
-              className="about-me-image-02"
+              className="about-me-image-02 image-black"
               style={{
-                willChange: "transform",
+                willChange: 'transform',
                 transform:
-                  "translate3d(25.7968px, 40.63px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                transformStyle: "preserve-3d"
+                  'translate3d(40px, 40.63px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                transformStyle: 'preserve-3d'
               }}
             />
           </div>
@@ -488,42 +508,42 @@ const RootLayout = () => (
         style={{
           opacity: 1,
           transform:
-            "translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-          transformStyle: "preserve-3d"
+            'translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+          transformStyle: 'preserve-3d'
         }}
       >
         <div
           className="infinite-text-container"
           style={{
             transform:
-              "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-            transformStyle: "preserve-3d",
-            willChange: "transform"
+              'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+            transformStyle: 'preserve-3d',
+            willChange: 'transform'
           }}
         >
-          <div className="infnite-text">#Projects</div>
+          <div className="infnite-text">#Stones</div>
         </div>
         <div
           className="infinite-text-container"
           style={{
             transform:
-              "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-            transformStyle: "preserve-3d",
-            willChange: "transform"
+              'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+            transformStyle: 'preserve-3d',
+            willChange: 'transform'
           }}
         >
-          <div className="infnite-text">#Projects</div>
+          <div className="infnite-text"> &nbsp; &nbsp; #Projects</div>
         </div>
         <div
           className="infinite-text-container"
           style={{
             transform:
-              "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-            transformStyle: "preserve-3d",
-            willChange: "transform"
+              'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+            transformStyle: 'preserve-3d',
+            willChange: 'transform'
           }}
         >
-          <div className="infnite-text">#Projects</div>
+          <div className="infnite-text">#Stones</div>
         </div>
       </div>
     </div>
@@ -533,16 +553,16 @@ const RootLayout = () => (
           <div role="listitem" className="project-grid-item w-dyn-item">
             <a
               data-w-id="095e9321-e5de-1824-c771-2e260c1ee158"
-              href="https://ovo-pulse.webflow.io/project/feeling-y"
+              href="https://wa.me//+14049803347?text=Hello%20Mr.%20Paiva%2C%20I%27m%20excited%20to%20hire%20you%20for%20my%20stone%20project%21%20Looking%20forward%20to%20working%20together%21%0A%0A%0A%0A%0A%0A"
               className="project-link w-inline-block"
             >
               <div
                 className="project-item"
                 style={{
-                  willChange: "transform",
+                  willChange: 'transform',
                   transform:
-                    "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                  transformStyle: "preserve-3d"
+                    'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transformStyle: 'preserve-3d'
                 }}
               >
                 <div className="content">
@@ -550,28 +570,28 @@ const RootLayout = () => (
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8cd57d27d95f1f105a56_Rectangle 1866.jpg"
+                      src="/images/granite.jpeg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cd57d27d95f1f105a56_Rectangle%201866-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cd57d27d95f1f105a56_Rectangle%201866-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cd57d27d95f1f105a56_Rectangle%201866-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cd57d27d95f1f105a56_Rectangle%201866.jpg 1206w"
+                      srcSet="/images/granite.jpeg"
                       className="project-thumbnail"
                     />
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8cd57d27d95f1f105a56_Rectangle 1866.jpg"
+                      src="/images/granite.jpeg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cd57d27d95f1f105a56_Rectangle%201866-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cd57d27d95f1f105a56_Rectangle%201866-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cd57d27d95f1f105a56_Rectangle%201866-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cd57d27d95f1f105a56_Rectangle%201866.jpg 1206w"
+                      srcSet="/images/granite.jpeg"
                       className="project-thumbnail _02"
-                      style={{ height: "0%" }}
+                      style={{ height: '0%' }}
                     />
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8cd57d27d95f1f105a56_Rectangle 1866.jpg"
+                      src="/images/granite.jpeg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cd57d27d95f1f105a56_Rectangle%201866-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cd57d27d95f1f105a56_Rectangle%201866-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cd57d27d95f1f105a56_Rectangle%201866-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cd57d27d95f1f105a56_Rectangle%201866.jpg 1206w"
+                      srcSet="/images/granite.jpeg"
                       className="project-thumbnail _03"
-                      style={{ height: "0%" }}
+                      style={{ height: '0%' }}
                     />
                   </div>
                   <div className="project-info">
@@ -580,16 +600,20 @@ const RootLayout = () => (
                         className="project-title"
                         style={{
                           transform:
-                            "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                          transformStyle: "preserve-3d"
+                            'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                          transformStyle: 'preserve-3d'
                         }}
                       >
-                        Feeling Y
+                        GRANITE
                       </div>
                     </div>
                     <div className="project-description">
-                      Et recusandae qui quia sed necessitatibus placeat sed quia
-                      sit. Sint praesentium eos necessitatibus debitis porro mi.
+                      Granite is an igneous rock, celebrated for its hardness
+                      and variety of patterns and colors. It&apos;s a popular
+                      choice for countertops due to its durability and
+                      resistance to heat, scratches, and stains. Granite
+                      countertops can maintain their stunning appearance with
+                      minimal maintenance, only requiring occasional sealing.
                     </div>
                   </div>
                 </div>
@@ -598,9 +622,9 @@ const RootLayout = () => (
                 <div
                   style={{
                     transform:
-                      "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                    transformStyle: "preserve-3d",
-                    willChange: "transform"
+                      'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                    transformStyle: 'preserve-3d',
+                    willChange: 'transform'
                   }}
                   className="view-project-text"
                 >
@@ -610,9 +634,9 @@ const RootLayout = () => (
                 <div
                   style={{
                     transform:
-                      "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                    transformStyle: "preserve-3d",
-                    willChange: "transform"
+                      'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                    transformStyle: 'preserve-3d',
+                    willChange: 'transform'
                   }}
                   className="view-project-text"
                 >
@@ -626,16 +650,16 @@ const RootLayout = () => (
           <div role="listitem" className="project-grid-item w-dyn-item">
             <a
               data-w-id="095e9321-e5de-1824-c771-2e260c1ee158"
-              href="https://ovo-pulse.webflow.io/project/marcomit"
+              href="https://wa.me//+14049803347?text=Hello%20Mr.%20Paiva%2C%20I%27m%20excited%20to%20hire%20you%20for%20my%20stone%20project%21%20Looking%20forward%20to%20working%20together%21%0A%0A%0A%0A%0A%0A"
               className="project-link w-inline-block"
             >
               <div
                 className="project-item"
                 style={{
-                  willChange: "transform",
+                  willChange: 'transform',
                   transform:
-                    "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0.003deg) rotateY(-0.003deg) rotateZ(0deg) skew(0deg, 0deg)",
-                  transformStyle: "preserve-3d"
+                    'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0.003deg) rotateY(-0.003deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transformStyle: 'preserve-3d'
                 }}
               >
                 <div className="content">
@@ -643,28 +667,28 @@ const RootLayout = () => (
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8cde3e7dc993be083c18_Rectangle 1869.jpg"
+                      src="/images/marble.jpeg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cde3e7dc993be083c18_Rectangle%201869-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cde3e7dc993be083c18_Rectangle%201869-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cde3e7dc993be083c18_Rectangle%201869-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cde3e7dc993be083c18_Rectangle%201869.jpg 1383w"
+                      srcSet="/images/marble.jpeg"
                       className="project-thumbnail"
                     />
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8cde3e7dc993be083c18_Rectangle 1869.jpg"
+                      src="/images/marble.jpeg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cde3e7dc993be083c18_Rectangle%201869-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cde3e7dc993be083c18_Rectangle%201869-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cde3e7dc993be083c18_Rectangle%201869-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cde3e7dc993be083c18_Rectangle%201869.jpg 1383w"
+                      srcSet="/images/marble.jpeg"
                       className="project-thumbnail _02"
-                      style={{ height: "0%" }}
+                      style={{ height: '0%' }}
                     />
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8cde3e7dc993be083c18_Rectangle 1869.jpg"
+                      src="/images/marble.jpeg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cde3e7dc993be083c18_Rectangle%201869-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cde3e7dc993be083c18_Rectangle%201869-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cde3e7dc993be083c18_Rectangle%201869-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cde3e7dc993be083c18_Rectangle%201869.jpg 1383w"
+                      srcSet="/images/marble.jpeg"
                       className="project-thumbnail _03"
-                      style={{ height: "0%" }}
+                      style={{ height: '0%' }}
                     />
                   </div>
                   <div className="project-info">
@@ -673,16 +697,20 @@ const RootLayout = () => (
                         className="project-title"
                         style={{
                           transform:
-                            "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                          transformStyle: "preserve-3d"
+                            'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                          transformStyle: 'preserve-3d'
                         }}
                       >
-                        Marcomit
+                        Marble
                       </div>
                     </div>
                     <div className="project-description">
-                      Et recusandae qui quia sed necessitatibus placeat sed quia
-                      sit. Sint praesentium eos necessitatibus debitis porro mi.
+                      Marble is a metamorphic rock known for its rich veining
+                      and soft, elegant appearance. It&apos;s prized in kitchens
+                      for its timeless beauty but is softer and more porous than
+                      granite, making it more susceptible to staining and
+                      scratching. Marble requires regular sealing to maintain
+                      its lustrous look.
                     </div>
                   </div>
                 </div>
@@ -691,9 +719,9 @@ const RootLayout = () => (
                 <div
                   style={{
                     transform:
-                      "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                    transformStyle: "preserve-3d",
-                    willChange: "transform"
+                      'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                    transformStyle: 'preserve-3d',
+                    willChange: 'transform'
                   }}
                   className="view-project-text"
                 >
@@ -703,9 +731,9 @@ const RootLayout = () => (
                 <div
                   style={{
                     transform:
-                      "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                    transformStyle: "preserve-3d",
-                    willChange: "transform"
+                      'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                    transformStyle: 'preserve-3d',
+                    willChange: 'transform'
                   }}
                   className="view-project-text"
                 >
@@ -719,16 +747,16 @@ const RootLayout = () => (
           <div role="listitem" className="project-grid-item w-dyn-item">
             <a
               data-w-id="095e9321-e5de-1824-c771-2e260c1ee158"
-              href="https://ovo-pulse.webflow.io/project/ron-busti"
+              href="https://wa.me//+14049803347?text=Hello%20Mr.%20Paiva%2C%20I%27m%20excited%20to%20hire%20you%20for%20my%20stone%20project%21%20Looking%20forward%20to%20working%20together%21%0A%0A%0A%0A%0A%0A"
               className="project-link w-inline-block"
             >
               <div
                 className="project-item"
                 style={{
-                  willChange: "transform",
+                  willChange: 'transform',
                   transform:
-                    "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                  transformStyle: "preserve-3d"
+                    'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transformStyle: 'preserve-3d'
                 }}
               >
                 <div className="content">
@@ -736,28 +764,28 @@ const RootLayout = () => (
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8ce76d88c15f2b5c155f_Rectangle 1870.jpg"
+                      src="/images/quartz.jpeg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8ce76d88c15f2b5c155f_Rectangle%201870-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8ce76d88c15f2b5c155f_Rectangle%201870-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8ce76d88c15f2b5c155f_Rectangle%201870-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8ce76d88c15f2b5c155f_Rectangle%201870.jpg 1383w"
+                      srcSet="/images/quartz.jpeg"
                       className="project-thumbnail"
                     />
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8ce76d88c15f2b5c155f_Rectangle 1870.jpg"
+                      src="/images/quartz.jpeg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8ce76d88c15f2b5c155f_Rectangle%201870-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8ce76d88c15f2b5c155f_Rectangle%201870-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8ce76d88c15f2b5c155f_Rectangle%201870-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8ce76d88c15f2b5c155f_Rectangle%201870.jpg 1383w"
+                      srcSet="/images/quartz.jpeg"
                       className="project-thumbnail _02"
-                      style={{ height: "0%" }}
+                      style={{ height: '0%' }}
                     />
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8ce76d88c15f2b5c155f_Rectangle 1870.jpg"
+                      src="/images/quartz.jpeg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8ce76d88c15f2b5c155f_Rectangle%201870-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8ce76d88c15f2b5c155f_Rectangle%201870-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8ce76d88c15f2b5c155f_Rectangle%201870-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8ce76d88c15f2b5c155f_Rectangle%201870.jpg 1383w"
+                      srcSet="/images/quartz.jpeg"
                       className="project-thumbnail _03"
-                      style={{ height: "0%" }}
+                      style={{ height: '0%' }}
                     />
                   </div>
                   <div className="project-info">
@@ -766,16 +794,18 @@ const RootLayout = () => (
                         className="project-title"
                         style={{
                           transform:
-                            "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                          transformStyle: "preserve-3d"
+                            'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                          transformStyle: 'preserve-3d'
                         }}
                       >
-                        Ron Busti
+                        Quartz
                       </div>
                     </div>
                     <div className="project-description">
-                      Et recusandae qui quia sed necessitatibus placeat sed quia
-                      sit. Sint praesentium eos necessitatibus debitis porro mi.
+                      This is a very popular choice for countertops due to its
+                      durability and wide range of colors and patterns. Quartz
+                      countertops are engineered stone products that combine
+                      ground quartz with resins and pigments.
                     </div>
                   </div>
                 </div>
@@ -784,9 +814,9 @@ const RootLayout = () => (
                 <div
                   style={{
                     transform:
-                      "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                    transformStyle: "preserve-3d",
-                    willChange: "transform"
+                      'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                    transformStyle: 'preserve-3d',
+                    willChange: 'transform'
                   }}
                   className="view-project-text"
                 >
@@ -796,9 +826,9 @@ const RootLayout = () => (
                 <div
                   style={{
                     transform:
-                      "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                    transformStyle: "preserve-3d",
-                    willChange: "transform"
+                      'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                    transformStyle: 'preserve-3d',
+                    willChange: 'transform'
                   }}
                   className="view-project-text"
                 >
@@ -812,16 +842,16 @@ const RootLayout = () => (
           <div role="listitem" className="project-grid-item w-dyn-item">
             <a
               data-w-id="095e9321-e5de-1824-c771-2e260c1ee158"
-              href="https://ovo-pulse.webflow.io/project/cereal"
+              href="https://wa.me//+14049803347?text=Hello%20Mr.%20Paiva%2C%20I%27m%20excited%20to%20hire%20you%20for%20my%20stone%20project%21%20Looking%20forward%20to%20working%20together%21%0A%0A%0A%0A%0A%0A"
               className="project-link w-inline-block"
             >
               <div
                 className="project-item"
                 style={{
-                  willChange: "transform",
+                  willChange: 'transform',
                   transform:
-                    "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                  transformStyle: "preserve-3d"
+                    'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transformStyle: 'preserve-3d'
                 }}
               >
                 <div className="content">
@@ -829,28 +859,28 @@ const RootLayout = () => (
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8cf0f13ef3d10ccb87b9_Rectangle 1871.jpg"
+                      src="/images/porcelain.jpg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cf0f13ef3d10ccb87b9_Rectangle%201871-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cf0f13ef3d10ccb87b9_Rectangle%201871-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cf0f13ef3d10ccb87b9_Rectangle%201871-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cf0f13ef3d10ccb87b9_Rectangle%201871.jpg 1206w"
+                      srcSet="/images/porcelain.jpg"
                       className="project-thumbnail"
                     />
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8cf0f13ef3d10ccb87b9_Rectangle 1871.jpg"
+                      src="/images/porcelain.jpg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cf0f13ef3d10ccb87b9_Rectangle%201871-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cf0f13ef3d10ccb87b9_Rectangle%201871-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cf0f13ef3d10ccb87b9_Rectangle%201871-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cf0f13ef3d10ccb87b9_Rectangle%201871.jpg 1206w"
+                      srcSet="/images/porcelain.jpg"
                       className="project-thumbnail _02"
-                      style={{ height: "0%" }}
+                      style={{ height: '0%' }}
                     />
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8cf0f13ef3d10ccb87b9_Rectangle 1871.jpg"
+                      src="/images/porcelain.jpg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cf0f13ef3d10ccb87b9_Rectangle%201871-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cf0f13ef3d10ccb87b9_Rectangle%201871-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cf0f13ef3d10ccb87b9_Rectangle%201871-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cf0f13ef3d10ccb87b9_Rectangle%201871.jpg 1206w"
+                      srcSet="/images/porcelain.jpg"
                       className="project-thumbnail _03"
-                      style={{ height: "0%" }}
+                      style={{ height: '0%' }}
                     />
                   </div>
                   <div className="project-info">
@@ -859,16 +889,17 @@ const RootLayout = () => (
                         className="project-title"
                         style={{
                           transform:
-                            "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                          transformStyle: "preserve-3d"
+                            'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                          transformStyle: 'preserve-3d'
                         }}
                       >
-                        Cereal
+                        Porcelain
                       </div>
                     </div>
                     <div className="project-description">
-                      Et recusandae qui quia sed necessitatibus placeat sed quia
-                      sit. Sint praesentium eos necessitatibus debitis porro mi.
+                      Porcelain countertops are gaining popularity due to their
+                      durability, heat resistance, and wide variety of color and
+                      pattern options.
                     </div>
                   </div>
                 </div>
@@ -877,9 +908,9 @@ const RootLayout = () => (
                 <div
                   style={{
                     transform:
-                      "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                    transformStyle: "preserve-3d",
-                    willChange: "transform"
+                      'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                    transformStyle: 'preserve-3d',
+                    willChange: 'transform'
                   }}
                   className="view-project-text"
                 >
@@ -889,9 +920,9 @@ const RootLayout = () => (
                 <div
                   style={{
                     transform:
-                      "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                    transformStyle: "preserve-3d",
-                    willChange: "transform"
+                      'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                    transformStyle: 'preserve-3d',
+                    willChange: 'transform'
                   }}
                   className="view-project-text"
                 >
@@ -905,16 +936,16 @@ const RootLayout = () => (
           <div role="listitem" className="project-grid-item w-dyn-item">
             <a
               data-w-id="095e9321-e5de-1824-c771-2e260c1ee158"
-              href="https://ovo-pulse.webflow.io/project/aut-consectetur-dignissimos"
+              href="https://wa.me//+14049803347?text=Hello%20Mr.%20Paiva%2C%20I%27m%20excited%20to%20hire%20you%20for%20my%20stone%20project%21%20Looking%20forward%20to%20working%20together%21%0A%0A%0A%0A%0A%0A"
               className="project-link w-inline-block"
             >
               <div
                 className="project-item"
                 style={{
-                  willChange: "transform",
+                  willChange: 'transform',
                   transform:
-                    "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0.003deg) rotateY(-0.003deg) rotateZ(0deg) skew(0deg, 0deg)",
-                  transformStyle: "preserve-3d"
+                    'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0.003deg) rotateY(-0.003deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transformStyle: 'preserve-3d'
                 }}
               >
                 <div className="content">
@@ -922,28 +953,28 @@ const RootLayout = () => (
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8d04d55466263737150e_Rectangle 1873.jpg"
+                      src="/images/soapstone.jpeg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8d04d55466263737150e_Rectangle%201873-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8d04d55466263737150e_Rectangle%201873-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8d04d55466263737150e_Rectangle%201873-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8d04d55466263737150e_Rectangle%201873.jpg 1383w"
+                      srcSet="/images/soapstone.jpeg"
                       className="project-thumbnail"
                     />
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8d04d55466263737150e_Rectangle 1873.jpg"
+                      src="/images/soapstone.jpeg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8d04d55466263737150e_Rectangle%201873-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8d04d55466263737150e_Rectangle%201873-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8d04d55466263737150e_Rectangle%201873-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8d04d55466263737150e_Rectangle%201873.jpg 1383w"
+                      srcSet="/images/soapstone.jpeg"
                       className="project-thumbnail _02"
-                      style={{ height: "0%", width: 450 }}
+                      style={{ height: '0%', width: 450 }}
                     />
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8d04d55466263737150e_Rectangle 1873.jpg"
+                      src="/images/soapstone.jpeg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8d04d55466263737150e_Rectangle%201873-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8d04d55466263737150e_Rectangle%201873-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8d04d55466263737150e_Rectangle%201873-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8d04d55466263737150e_Rectangle%201873.jpg 1383w"
+                      srcSet="/images/soapstone.jpeg"
                       className="project-thumbnail _03"
-                      style={{ height: "0%", width: 450 }}
+                      style={{ height: '0%', width: 450 }}
                     />
                   </div>
                   <div className="project-info">
@@ -952,16 +983,17 @@ const RootLayout = () => (
                         className="project-title"
                         style={{
                           transform:
-                            "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                          transformStyle: "preserve-3d"
+                            'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                          transformStyle: 'preserve-3d'
                         }}
                       >
-                        Books
+                        Soapstone
                       </div>
                     </div>
                     <div className="project-description">
                       Aut praesentium minima assumenda aliquid qui vero.
-                      Perferendis possimus laudantium aut. Sit labore quibusdam vo
+                      Perferendis possimus laudantium aut. Sit labore quibusdam
+                      vo
                     </div>
                   </div>
                 </div>
@@ -971,16 +1003,16 @@ const RootLayout = () => (
                 style={{
                   opacity: 0,
                   transform:
-                    "translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                  transformStyle: "preserve-3d"
+                    'translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transformStyle: 'preserve-3d'
                 }}
               >
                 <div
                   style={{
                     transform:
-                      "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                    transformStyle: "preserve-3d",
-                    willChange: "transform"
+                      'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                    transformStyle: 'preserve-3d',
+                    willChange: 'transform'
                   }}
                   className="view-project-text"
                 >
@@ -990,9 +1022,9 @@ const RootLayout = () => (
                 <div
                   style={{
                     transform:
-                      "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                    transformStyle: "preserve-3d",
-                    willChange: "transform"
+                      'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                    transformStyle: 'preserve-3d',
+                    willChange: 'transform'
                   }}
                   className="view-project-text"
                 >
@@ -1006,16 +1038,16 @@ const RootLayout = () => (
           <div role="listitem" className="project-grid-item w-dyn-item">
             <a
               data-w-id="095e9321-e5de-1824-c771-2e260c1ee158"
-              href="https://ovo-pulse.webflow.io/project/romans"
+              href="https://wa.me//+14049803347?text=Hello%20Mr.%20Paiva%2C%20I%27m%20excited%20to%20hire%20you%20for%20my%20stone%20project%21%20Looking%20forward%20to%20working%20together%21%0A%0A%0A%0A%0A%0A"
               className="project-link w-inline-block"
             >
               <div
                 className="project-item"
                 style={{
-                  willChange: "transform",
+                  willChange: 'transform',
                   transform:
-                    "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                  transformStyle: "preserve-3d"
+                    'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transformStyle: 'preserve-3d'
                 }}
               >
                 <div className="content">
@@ -1023,28 +1055,28 @@ const RootLayout = () => (
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8cfcead64a69e223b316_Rectangle 1872.jpg"
+                      src="/images/onyx.jpeg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cfcead64a69e223b316_Rectangle%201872-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cfcead64a69e223b316_Rectangle%201872-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cfcead64a69e223b316_Rectangle%201872-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cfcead64a69e223b316_Rectangle%201872.jpg 1383w"
+                      srcSet="/images/onyx.jpeg"
                       className="project-thumbnail"
                     />
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8cfcead64a69e223b316_Rectangle 1872.jpg"
+                      src="/images/onyx.jpeg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cfcead64a69e223b316_Rectangle%201872-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cfcead64a69e223b316_Rectangle%201872-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cfcead64a69e223b316_Rectangle%201872-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cfcead64a69e223b316_Rectangle%201872.jpg 1383w"
+                      srcSet="/images/onyx.jpeg"
                       className="project-thumbnail _02"
-                      style={{ height: "0%" }}
+                      style={{ height: '0%' }}
                     />
                     <img
                       alt=""
                       loading="lazy"
-                      src="./Paiva'S Granite & Marble - Rapair & Installation_files/654b8cfcead64a69e223b316_Rectangle 1872.jpg"
+                      src="/images/onyx.jpeg"
                       sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 46vw, (max-width: 1439px) 31vw, 33vw"
-                      srcSet="https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cfcead64a69e223b316_Rectangle%201872-p-500.jpg 500w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cfcead64a69e223b316_Rectangle%201872-p-800.jpg 800w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cfcead64a69e223b316_Rectangle%201872-p-1080.jpg 1080w, https://assets-global.website-files.com/654b70058ff193aba04eecb2/654b8cfcead64a69e223b316_Rectangle%201872.jpg 1383w"
+                      srcSet="/images/onyx.jpeg"
                       className="project-thumbnail _03"
-                      style={{ height: "0%" }}
+                      style={{ height: '0%' }}
                     />
                   </div>
                   <div className="project-info">
@@ -1053,16 +1085,18 @@ const RootLayout = () => (
                         className="project-title"
                         style={{
                           transform:
-                            "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                          transformStyle: "preserve-3d"
+                            'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                          transformStyle: 'preserve-3d'
                         }}
                       >
-                        Romans
+                        Onyx
                       </div>
                     </div>
                     <div className="project-description">
-                      Quibusdam veniam voluptas nemo aspernatur expedita cum sed.
-                      Impedit nam natus consequatur voluptate.
+                      Onyx is a luxurious, translucent stone that can add a
+                      dramatic flair to a kitchen. It&apos;s softer and more
+                      delicate than granite or marble, so it&apos;s less common
+                      for the main preparation surfaces.
                     </div>
                   </div>
                 </div>
@@ -1071,9 +1105,9 @@ const RootLayout = () => (
                 <div
                   style={{
                     transform:
-                      "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                    transformStyle: "preserve-3d",
-                    willChange: "transform"
+                      'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                    transformStyle: 'preserve-3d',
+                    willChange: 'transform'
                   }}
                   className="view-project-text"
                 >
@@ -1083,9 +1117,9 @@ const RootLayout = () => (
                 <div
                   style={{
                     transform:
-                      "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                    transformStyle: "preserve-3d",
-                    willChange: "transform"
+                      'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                    transformStyle: 'preserve-3d',
+                    willChange: 'transform'
                   }}
                   className="view-project-text"
                 >
@@ -1105,42 +1139,42 @@ const RootLayout = () => (
         style={{
           opacity: 1,
           transform:
-            "translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-          transformStyle: "preserve-3d"
+            'translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+          transformStyle: 'preserve-3d'
         }}
       >
         <div
           className="infinite-text-container"
           style={{
             transform:
-              "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-            transformStyle: "preserve-3d",
-            willChange: "transform"
+              'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+            transformStyle: 'preserve-3d',
+            willChange: 'transform'
           }}
         >
-          <div className="infnite-text">#The End&nbsp;&nbsp;#The End</div>
+          <div className="infnite-text">#Contract&nbsp;&nbsp;#Contract</div>
         </div>
         <div
           className="infinite-text-container"
           style={{
             transform:
-              "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-            transformStyle: "preserve-3d",
-            willChange: "transform"
+              'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+            transformStyle: 'preserve-3d',
+            willChange: 'transform'
           }}
         >
-          <div className="infnite-text">#The End&nbsp;&nbsp;#The End</div>
+          <div className="infnite-text">#Contract&nbsp;&nbsp;#Contract</div>
         </div>
         <div
           className="infinite-text-container"
           style={{
             transform:
-              "translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-            transformStyle: "preserve-3d",
-            willChange: "transform"
+              'translate3d(-62.031%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+            transformStyle: 'preserve-3d',
+            willChange: 'transform'
           }}
         >
-          <div className="infnite-text">#The End&nbsp;&nbsp;#The End</div>
+          <div className="infnite-text">#Contract&nbsp;&nbsp;#Contract</div>
         </div>
       </div>
       <div className="container">
@@ -1149,17 +1183,34 @@ const RootLayout = () => (
             <div className="content-inside">
               <div className="footer-paragraph-wrapper">
                 <p>
-                  Convallis diam nisl vulputate rhoncus neque bibendum. Amet
-                  euismod arcu non semper eu rhoncus dolor amet sed.met euismod
-                  arcu
+                  Experience the exceptional craftsmanship and dedicated service
+                  of <b>Paiva&apos;s Granite & Marble</b>. With our proven
+                  expertise in creating stunning stone works, we`&apos;re ready
+                  to transform your vision into a beautiful reality. Let`&apos;s
+                  seal the deal and start crafting your masterpiece today!
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="footer">
+        <div className="footer" id="contract">
           <div className="content-inside">
             <div className="footer-top-links">
+              <div className="footer-links-wrapper">
+                <a href="tel:404-980-3347" className="footer-links">
+                  (404) 980-3347
+                </a>
+              </div>
+              <div className="footer-links-wrapper">
+                <a
+                  href="https://wa.me//+14049803347?text=Hello%20Mr.%20Paiva%2C%20I%27m%20excited%20to%20hire%20you%20for%20my%20stone%20project%21%20Looking%20forward%20to%20working%20together%21%0A%0A%0A%0A%0A%0A"
+                  className="footer-links"
+                >
+                  whatsapp
+                </a>
+              </div>
+            </div>
+            <div className="footer-top-links !hidden">
               <div className="footer-links-wrapper">
                 <a href="mailto:email@.com" className="footer-links">
                   name@email.com
@@ -1189,7 +1240,7 @@ const RootLayout = () => (
                     alt=""
                     className="footer-up-image"
                   />
-                  <div className="arrow-line" style={{ height: "60%" }} />
+                  <div className="arrow-line" style={{ height: '60%' }} />
                 </aside>
               </a>
             </div>
@@ -1199,40 +1250,12 @@ const RootLayout = () => (
             <div className="footer-top-links _02">
               <div className="footer-links-holder">
                 <a
-                  href="https://madebyoversight.com/"
+                  href="https://linkedin.com/julioflima"
                   target="_blank"
                   className="simple-link grey-link"
                 >
-                  Created by OVERSIGHT
+                  Created by Julio Lima
                 </a>
-              </div>
-              <div className="footer-links-wrapper">
-                <div className="w-layout-grid footer-link-grid">
-                  <a
-                    href="https://ovo-pulse.webflow.io/template/style-guide"
-                    className="simple-link grey-link"
-                  >
-                    Style Guide
-                  </a>
-                  <a
-                    href="https://ovo-pulse.webflow.io/template/licensing"
-                    className="simple-link grey-link"
-                  >
-                    Licensing
-                  </a>
-                  <a
-                    href="https://ovo-pulse.webflow.io/template/instructions"
-                    className="simple-link grey-link"
-                  >
-                    Instructions
-                  </a>
-                  <a
-                    href="https://ovo-pulse.webflow.io/template/change-log"
-                    className="simple-link grey-link"
-                  >
-                    Change Log
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -1241,22 +1264,19 @@ const RootLayout = () => (
     </div>
     <div className="buy-template">
       <a
-        href="https://webflow.com/templates/html/mark-portfolio-website-template"
+        href="https://wa.me//+14049803347?text=Hello%20Mr.%20Paiva%2C%20I%27m%20excited%20to%20hire%20you%20for%20my%20stone%20project%21%20Looking%20forward%20to%20working%20together%21%0A%0A%0A%0A%0A%0A"
         target="_blank"
         className="buy-template-holder w-inline-block"
       >
         <div className="buy-template-text">
-          Buy this template for <strong>$34USD</strong>
+          Talk with <b>me</b> right now!
         </div>
       </a>
     </div>
     <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb">
-      <section id="shadow-host-companion">
-      </section>
+      <section id="shadow-host-companion"></section>
     </div>
-
   </html>
-
 );
 
-export default RootLayout
+export default RootLayout;

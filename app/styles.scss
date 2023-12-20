@@ -26,6 +26,43 @@ audio:not([controls]) {
   display: none;
 }
 
+.image-black{
+  filter: saturate(0%) brightness(70%) contrast(100%) !important;
+  --zoom: 1; /* control the zoom level */
+  /* the coordinate of the zoom */
+  --x: 50%;
+  --y: 50%;
+  /**/
+  transform: scale(var(--zoom));
+  transform-origin: var(--x) var(--y);
+  clip-path: inset(
+    calc((1 - 1/var(--zoom)) * (var(--y)))
+    calc((1 - 1/var(--zoom)) * (100% - var(--x)))
+    calc((1 - 1/var(--zoom)) * (100% - var(--y)))
+    calc((1 - 1/var(--zoom)) * (var(--x)))
+  );
+
+  .photo-container {
+    overflow: hidden; /* Hides the part of the image outside the container */
+    width: 200px; /* Width of the visible area */
+    height: 200px; /* Height of the visible area */
+    clip-path: circle(50% at center); /* Clips the image to a circular shape */
+  }
+  
+  .photo-container img {
+    width: 100%; /* Adjust the width to fill the container */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.5s ease; /* Smooth transition for zoom effect */
+  }
+  
+  .photo-container:hover img {
+    transform: scale(1.2); /* Adjust the scale for the desired zoom level */
+  }
+  
+
+
+}
+
 a {
   background-color: rgba(0, 0, 0, 0);
 }
@@ -3419,6 +3456,7 @@ figcaption {
 .about-me-image {
   width: 100%;
   object-fit: cover;
+  margin-left: 20%;
 }
 
 .about-text-holder {
@@ -3551,7 +3589,7 @@ figcaption {
   position: absolute;
   top: auto;
   bottom: -25%;
-  left: -25%;
+  left: -5%;
   right: auto;
 }
 
